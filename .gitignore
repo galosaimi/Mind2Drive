@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Raw data
+*.bag
+*.mp4
+*.avi
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.npy
+*.npz
+*.pth
+*.pt
+*.h5
+
+# Ignore data content keep folders
+data/raw/*
+data/extracted/*
+data/labeled/*
+data/processed/*
+results/checkpoints/*
+results/logs/*
+
+# Keep placeholders
+!data/**/.gitkeep
+!results/**/.gitkeep
